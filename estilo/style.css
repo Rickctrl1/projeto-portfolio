@@ -1,0 +1,81 @@
+@charset "utf-8";
+/*Geral*/
+/*  
+    paleta de cores:
+    #525461--Cinza Azulado Escuro.
+    #282A38--Azul Escuro Profundo.
+    #1D90F3--Azul Brilhante. 
+*/
+
+.archivo-black-regular { /*fonte*/
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html{    
+    background-color: #525461;
+    width: 100vw;
+    height: 100vh;
+}
+
+main{  /*pai*/
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;    
+}
+
+section{   /*filho*/
+    background-color: #282A38;
+    width: 250px;
+    height: 300px;
+    border-radius: 8%;
+    
+    box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.623);
+    border: 1px solid rgba(255, 255, 255, 0.45);
+
+    position: relative;
+}
+
+div#imagem{
+    background-image: url(../imagens/circulo.png);
+    background-size: 100% 100%;
+    width: 100px;
+    height: 110px;
+    border-radius: 50%;
+    box-shadow: 4px 3px 1px rgba(0, 0, 0, 0.555);
+
+    position: absolute;
+    left: 50%;
+    /* top: ; */
+    transform: translate(-50%, -50%);
+
+}  
+
+section > p {
+    font-family: "Archivo Black";
+    text-align: center;
+    color: white;
+    font-size: .9em;
+    padding: 100px 15px 10px 15px
+}
+
+section a{
+    background-color: rgb(114, 50, 173);
+    font-family: "Archivo Black";
+    color: white;    
+    text-decoration: none;
+    margin-left: 85px;    
+}
+
+
