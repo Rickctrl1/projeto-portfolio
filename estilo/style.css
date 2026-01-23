@@ -70,12 +70,24 @@ section > p {
     padding: 100px 15px 10px 15px
 }
 
-section > nav > a {
+ /* section  a {
     background-color: rgb(114, 50, 173);
     font-family: "Archivo Black";
     color: white;    
     text-decoration: none;
     margin-left: 75px;    
+}  */
+
+section > nav {
+    /* margin: auto;   */
+    text-align: center;  
+    padding-top: 10px;
+}
+
+section a{
+    text-decoration: none;
+    font-size: .9em;
+    color: white;
 }
 
 
